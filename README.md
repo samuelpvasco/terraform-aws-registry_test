@@ -12,15 +12,3 @@ O objetivo não é fornecer uma solução de infraestrutura complexa, mas sim se
 - Testar a compatibilidade de versões e restrições de provedores.
 
 ---
-
-## 💻 Exemplo de Uso
-
-Para testar a chamada deste módulo, você pode utilizar o bloco abaixo:
-
-```hcl
-module "registry_check" {
-  source  = "<SEU_USUARIO>/registry-test/aws"
-  version = "0.0.1"
-
-  test_string = "Validando o Registry"
-}
